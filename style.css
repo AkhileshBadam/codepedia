@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman;
+}
+
+header{
+    background-image: url(1.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-position:center ;
+
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px; 
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(17, 17, 17);
+    padding: 5px 20px;
+    border: 1px solid rgb(24, 23, 23);
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #00;
+
+}
+ul li.active a{
+    background-color: #fff;
+    color: #00;
+
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: rgb(14, 13, 13);
+    size: 5000px;
+}
+.button{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid rgb(10, 10, 10);
+    padding: 10px 30px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #00;
+}
+
+.firstsection{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(10, 10, 10);
+    padding: 10px 30px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+.secondsection{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(10, 10, 10);
+    padding: 10px 30px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+.Thirdsection{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(10, 10, 10);
+    padding: 10px 30px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+.Fourthsection{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(10, 10, 10);
+    padding: 10px 30px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+.Fifthsection{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(10, 10, 10);
+    padding: 10px 30px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+
